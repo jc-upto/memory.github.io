@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+body {
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+}
+
+header {
+    width: 80%;
+    text-align: center;
+}
+
+select {
+    border-top: #444;
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+#top-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: gainsboro;
+    opacity: .8;
+}
+
+#viewport {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#viewport img {
+    width: 170px;
+    height: 200px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+                -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#messages {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50em;
+    height: 12em;
+    margin-top: -10em;
+    margin-left: -25em;
+    border: 1px solid #ccc;
+    background: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+                -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+    opacity: 0;
+    text-align: center;
+    z-index: -1;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: bold;
+}
+
+#messages > div {
+    margin-top: 25px;
+}
+
+#timer-div {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.replayButton {
+    margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    background-color: #77b55a;
+    border-radius: 4px;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 14px 37px;
+    text-decoration: none;
+    text-shadow: 0px 4px 0px #5b8a3c;
+}
+
+.replayButton:hover {
+    background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color: #72b352;
+}
+
+.replayButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+@keyframes flip-card-animation-show {
+    0% {
+      transform : scale(1.1) rotateY(90deg);
+    }
+
+}
+
+@keyframes flip-card-animation-hide {
+    0% {
+        transform : scale(1.1) rotateY(-90deg);
+    }
+
+}
+
+@media (max-width: 748px) {
+    #top-div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #top-div div {
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+}

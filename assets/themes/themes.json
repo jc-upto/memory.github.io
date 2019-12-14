@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 0,
+        "name" : "animals",
+        "path" : "assets/themes/animals/",
+        "background" : "background.jpg",
+        "backface" : "animals-backface.jpg",
+        "cards" : [
+            "chat.png", "crocodile.png", "elephant.png", "girafe.png", "hypo.png", "kangourou.png", "panda.png"
+        ],
+        "credits" : "Momes.net",
+        "creditsUrl" : "http://www.momes.net"
+    },
+
+    {
+        "id" : 1,
+        "name" : "christmas",
+        "path" : "assets/themes/christmas/",
+        "background" : "background.jpg",
+        "backface" : "christmas-backface.png",
+        "cards" : [
+            "sapin.png", "renne.png", "moufles.png", "cheminee.png", "etoile.png", "pere-noel.png", "traineau.png"
+        ],
+
+        "credits" : "Dessines Moi Une Histoire",
+        "creditsUrl" : "http://www.dessinemoiunehistoire.net"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Little Pony",
+        "path" : "assets/themes/littlePony/",
+        "background" : "background.jpg",
+        "backface" : "littlePony-backface.jpg",
+        "cards" : [
+            "twilight-parkel.png", "rainbow-dash.png", "apple-jam.png", "rarity.png", "fluttershine.png", "pinkipay.png"
+        ],
+
+        "credits" : "Devian Art",
+        "creditsUrl" : "https://www.deviantart.com"
+    },
+
+    {
+        "id" : 3,
+        "name" : "Pat Patrouille",
+        "path" : "assets/themes/pawPatrol/",
+        "background" : "background.jpeg",
+        "backface" : "pawPatrol-backface.jpg",
+        "maximumAllowedCards" : 20,
+        "cards" : [
+            "rider.png", "chase.jpg", "marcus.jpg", "skye.jpg", "everest.jpg", "ruben.jpg", "zuma.jpg"
+        ],
+
+        "credits" : "Devian Art",
+        "creditsUrl" : "https://www.deviantart.com"
+    }
+]

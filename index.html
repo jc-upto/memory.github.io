@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>The memory game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Memory Game</h1>
+        <div id="top-div">
+            <div id="score">Ton score: <span id="score-result">0</span></div>
+            <div>
+                Choisis ton thème:
+                <select id="theme-selector"></select>
+            </div>
+            <div>
+                Avec timer:
+                <select id="timer-selector">
+                    <option id="1">Oui</option>
+                    <option id="0">Non</option>
+                </select>
+            </div>
+
+        </div>
+    </header>
+    <div id="timer-div"></div>
+    <div id="messages">
+        <div id="messages-area">Félicitations, vous avez gagné !</div>
+        <a class="replayButton" id="restart">Rejouer</a>
+    </div>
+    <div id="viewport"></div>
+
+    <footer>
+        <div>Images des cartes par <a id="credits" href="http://www.momes.net"></a></div>
+    </footer>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
